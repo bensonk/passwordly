@@ -1,16 +1,50 @@
-  [4;36;1mSQL (0.000410)[0m   [0;1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-  [4;35;1mSQL (0.000233)[0m   [0mselect sqlite_version(*)[0m
-  [4;36;1mSQL (0.003376)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
-  [4;35;1mSQL (0.003343)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
-  [4;36;1mSQL (0.000517)[0m   [0;1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
-  [4;35;1mSQL (0.000357)[0m   [0mSELECT version FROM schema_migrations[0m
-  [4;36;1mSQL (0.000429)[0m   [0;1m SELECT name
- FROM sqlite_master
- WHERE type = 'table' AND NOT name = 'sqlite_sequence'
-[0m
+  [4;36;1mWord Create (0.000875)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zygous', '2008-11-27 08:24:55')[0m
+  [4;35;1mWord Create (0.000847)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zygozoospore', '2008-11-27 08:24:55')[0m
+  [4;36;1mWord Create (0.000713)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymase', '2008-11-27 08:24:55')[0m
+  [4;35;1mWord Create (0.000800)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zyme', '2008-11-27 08:24:55')[0m
+  [4;36;1mWord Create (0.000655)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymic', '2008-11-27 08:24:55')[0m
+  [4;35;1mWord Create (0.000728)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymin', '2008-11-27 08:24:55')[0m
+  [4;36;1mWord Create (0.000709)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymite', '2008-11-27 08:24:55')[0m
+  [4;35;1mWord Create (0.000721)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymogen', '2008-11-27 08:24:55')[0m
+  [4;36;1mWord Create (0.000712)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:55', 'zymogene', '2008-11-27 08:24:55')[0m
+  [4;35;1mWord Create (0.000686)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymogenesis', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000732)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymogenic', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000833)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymogenous', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000697)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymoid', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.001047)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymologic', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000696)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymological', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000467)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymologist', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000457)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymology', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000723)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymolyis', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.001080)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymolysis', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000442)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymolytic', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000676)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymome', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000741)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymometer', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000717)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymomin', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000672)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymophore', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000787)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymophoric', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000745)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymophosphate', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000709)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymophyte', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000452)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymoplastic', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000727)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymoscope', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000676)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymosimeter', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000716)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymosis', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000754)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymosterol', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000752)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymosthenic', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000540)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotechnic', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000510)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotechnical', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000401)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotechnics', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000453)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotechny', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000711)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotic', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000731)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotically', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000742)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotize', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000679)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymotoxic', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000792)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zymurgy', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000708)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zyrenian', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000690)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zyrian', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000728)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zyryan', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000712)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zythem', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000694)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zythia', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000751)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'zythum', '2008-11-27 08:24:56')[0m
+  [4;36;1mWord Create (0.000700)[0m   [0;1mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zyzomys', '2008-11-27 08:24:56')[0m
+  [4;35;1mWord Create (0.000721)[0m   [0mINSERT INTO "words" ("updated_at", "value", "created_at") VALUES('2008-11-27 08:24:56', 'Zyzzogeton', '2008-11-27 08:24:56')[0m
