@@ -1,0 +1,22 @@
+*{ margin: 0; padding: 0; }
+
+html{ border-top: 10px solid #333; }
+body{ width: 600px; margin: 50px auto; font-family: "Helvetica Neue", Helvetica, Arial; color: #666; }
+
+fieldset{ border: none; }
+label{ display: block; float: right; width: 15%; padding: .25em .5em; background: #999; color: #fff; font-size: small; text-align: center; }
+	label.first{ -moz-border-radius: 3px 0 0 3px; border-right: 1px solid #666; }
+	label.last{ -moz-border-radius: 0 3px 3px 0; border-left: 1px solid #666; }
+	label.selected{ background: #333; }
+
+	legend{ float: left; font-size: x-small; text-transform: uppercase; display: block; width: auto; position: relative; margin-left: 8em; margin-bottom: -2.4em; }
+
+input[type=radio]{ display: none; }
+#submit{ display: block; width: 100%; font-size: xx-large; margin: 1.5em 0 .25em; color: #fff; background: #333; border: 1px solid #222; -moz-border-radius: 5px; padding: .5em 0; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+#output{ font-size: x-large; text-align: center; line-height: 200%; }
+	#output input{ font-size: xx-large; text-align: center; width: 6em; }
+	
+h1, #generate{ width: 400px; margin: 0 auto; }
+
+#generate{ margin-bottom: 3em; }

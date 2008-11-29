@@ -1,0 +1,12 @@
+<form action="/password/generate" id="generate" method="post">
+	<fieldset>
+		<input type="submit" id="submit" value="Generate Password" />
+	</fieldset>
+	<fieldset>
+		<legend>Security Level</legend>
+		<label for="high" class="last"><input type="radio" name="level" value="high" id="high" />High</label>		
+		<label for="medium"><input type="radio" name="level" value="medium" id="medium" checked="checked" />Medium</label>
+		<label for="low" class="first"><input type="radio" name="level" value="low" id="low" />Low</label>			
+	</fieldset>
+</form>
+	<div id="output"></div>
