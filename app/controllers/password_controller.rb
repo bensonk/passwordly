@@ -1,7 +1,6 @@
 class PasswordController < ApplicationController
   def generate
-    @password = crap_out_password(params[:level])
-    
+    @password = create_pass(params[:level])
     respond_to do |format|
       format.html
       format.js
@@ -9,17 +8,36 @@ class PasswordController < ApplicationController
   end
   
   private
-  
-  #incredibly ugly fake password generation for testing
-  def crap_out_password(security_level)
-    if security_level == "low"
-      return "foo"
-    elsif security_level == "medium"
-      return "f00"
-    elsif security_level == "high"
-      return "f00b##"
+  def create_pass(level)
+    if(level == 1)
+      return random_simple_password
     else
-      return "crap none of that worked"
+      return random_medium_password
     end
+  end
+
+  def random_punct
+    [ ".", "!", "?", "%", "+", "-" ].sort_by{rand}[0]
+  end
+
+  def random_num
+    rand(10).to_s
+  end
+
+  def random_simple_password
+    random_num + Word.random.value + random_punct
+  end
+
+  def random_medium_password
+    elite(Word.random.value) + random_punct
+  end
+
+  def elite(word)
+    word.sub!("a", "4")
+    word.sub!("e", "3")
+    word.sub!("i", "1")
+    word.sub!("o", "0")
+    word.sub!("t", "7")
+    return word
   end
 end
