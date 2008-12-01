@@ -1,15 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>Passwordly</title>
-	
-	<%= stylesheet_link_tag "application", :media => "screen"	%>
-	<%= javascript_include_tag "jquery", "application" %>
-</head>
-<body>
-	<h1>Passwordly</h1>
-	<%= yield %>
-</body>
+  <head>
+    <title>Password Generator &mdash; <%= controller.action_name.titleize %></title>
+    <%= stylesheet_link_tag "screen", :media => "screen" %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
 </html>
